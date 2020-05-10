@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MyFramework123Phunv"
-    s.version      = "0.1.0"
+    s.version      = "0.2.0"
     s.summary      = "A brief description of MyFramework project."
     s.description  = <<-DESC
     An extended description of MyFramework project.
@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "Phu2810" => "nguyenphu2810@gmail.com" }
     s.source       = { :git => "https://github.com/testcocoapod/TestCocoa.git", :tag => "#{s.version}" }
-    s.public_header_files = "MyFramework.framework/Headers/*.h"
-    s.source_files = "MyFramework.framework/Headers/*.h"
-    s.vendored_frameworks = "MyFramework.framework"
+    s.public_header_files = "Mapbox.framework/Headers/*.h"
+    s.source_files = "Mapbox.framework/Headers/*.h"
+    s.vendored_frameworks = "Mapbox.framework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = '12.0'
